@@ -25,7 +25,9 @@ import 'quasar/dist/quasar.sass'
 
 
 
-import 'src/css/app.scss'
+import 'src/css/app.sass'
+
+import '@quasar/quasar-ui-qmarkdown/src/index.sass'
 
 
 import Vue from 'vue'
@@ -34,7 +36,7 @@ import createApp from './app.js'
 
 
 
-import qboot_Booti18n from 'boot/i18n'
+import qboot_Quasarquasarappextensionqmarkdownsrcbootregisterjs from '@quasar/quasar-app-extension-qmarkdown/src/boot/register.js'
 
 
 
@@ -54,7 +56,7 @@ console.info('[Quasar] Running SPA.')
 
 
 async function start () {
-  const { app, store, router } = await createApp()
+  const { app, router } = await createApp()
 
   
 
@@ -66,7 +68,7 @@ async function start () {
   }
 
   const urlPath = window.location.href.replace(window.location.origin, '')
-  const bootFiles = [qboot_Booti18n]
+  const bootFiles = [qboot_Quasarquasarappextensionqmarkdownsrcbootregisterjs]
 
   for (let i = 0; routeUnchanged === true && i < bootFiles.length; i++) {
     if (typeof bootFiles[i] !== 'function') {
@@ -77,7 +79,7 @@ async function start () {
       await bootFiles[i]({
         app,
         router,
-        store,
+        
         Vue,
         ssrContext: null,
         redirect,
