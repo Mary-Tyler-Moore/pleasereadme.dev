@@ -1,7 +1,15 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar>
+      <q-toolbar
+        style="height: 75px"
+        class="shadow-18"
+        :style="
+          $q.dark.isActive
+            ? 'background-image: linear-gradient(to right, #30cfd0 0%, #330867 75%)'
+            : 'background-image: linear-gradient(to right, #fa709a 25%, #fee140 100%)'
+        "
+      >
         <q-btn
           flat
           dense
@@ -11,27 +19,126 @@
           aria-label="Menu"
         />
 
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
+        <q-toolbar-title class="absolute-center text-h4">READMEplease.dev</q-toolbar-title>
+        <!-- Dark Mode Toggle -->
+        <q-btn
+          :icon="$q.dark.isActive ? 'wb_sunny' : 'brightness_3'"
+          flat
+          class="absolute-right"
+          style="margin-right: 2em"
+          dense
+          round
+          @click="$q.dark.isActive ? $q.dark.set(false) : $q.dark.set(true)"
+          no-caps
+        ></q-btn>
+        <!-- Dark Mode Toggle -->
       </q-toolbar>
     </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
-      content-class="bg-grey-1"
+      :content-class="$q.dark.isActive ? 'bg-grey-10' : 'bg-grey-2'"
     >
       <q-list>
-        <q-item-label header class="text-grey-8">Essential Links</q-item-label>
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
+        <q-item-label header :style="$q.dark.isActive ? 'color: white' : 'color: black'">Navigation</q-item-label>
+
+        <q-item
+          :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+          exact
+          clickable
+          to="/"
+          active-class="my-menu-link"
+        >
+          <q-item-section avatar>
+            <q-icon name="home" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">Home</q-item-label>
+            <!--
+            <q-item-label>{{ nav.label }}</q-item-label>
+            -->
+          </q-item-section>
+        </q-item>
+
+        <q-item
+          :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+          exact
+          clickable
+          to="/"
+          active-class="my-menu-link"
+        >
+          <q-item-section avatar>
+            <q-icon name="mdi-dog" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label
+              :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+            >Quasar Accessible README</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item
+          :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+          exact
+          clickable
+          to="/"
+          active-class="my-menu-link"
+        >
+          <q-item-section avatar>
+            <q-icon name="mdi-cat" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label
+              :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+            >Venues Production</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item
+          :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+          exact
+          clickable
+          to="/"
+          active-class="my-menu-link"
+        >
+          <q-item-section avatar>
+            <q-icon name="record_voice_over" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">Big Step</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item
+          :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+          exact
+          clickable
+          to="/"
+          active-class="my-menu-link"
+        >
+          <q-item-section avatar>
+            <q-icon name="record_voice_over" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">Omo Cafe</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item
+          :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+          exact
+          clickable
+          to="/"
+          active-class="my-menu-link"
+        >
+          <q-item-section avatar>
+            <q-icon name="mail_outline" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">LoveJS</q-item-label>
+          </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 
@@ -42,57 +149,17 @@
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink'
-
 export default {
-  name: 'MainLayout',
-
-  components: {
-    EssentialLink
-  },
-
-  data () {
+  name: "MyLayout",
+  data() {
     return {
-      leftDrawerOpen: false,
-      essentialLinks: [
-        {
-          title: 'Docs',
-          caption: 'quasar.dev',
-          icon: 'school',
-          link: 'https://quasar.dev'
-        },
-        {
-          title: 'Github',
-          caption: 'github.com/quasarframework',
-          icon: 'code',
-          link: 'https://github.com/quasarframework'
-        },
-        {
-          title: 'Discord Chat Channel',
-          caption: 'chat.quasar.dev',
-          icon: 'chat',
-          link: 'https://chat.quasar.dev'
-        },
-        {
-          title: 'Forum',
-          caption: 'forum.quasar.dev',
-          icon: 'record_voice_over',
-          link: 'https://forum.quasar.dev'
-        },
-        {
-          title: 'Twitter',
-          caption: '@quasarframework',
-          icon: 'rss_feed',
-          link: 'https://twitter.quasar.dev'
-        },
-        {
-          title: 'Facebook',
-          caption: '@QuasarFramework',
-          icon: 'public',
-          link: 'https://facebook.quasar.dev'
-        }
-      ]
-    }
+      leftDrawerOpen: false
+    };
   }
-}
+};
 </script>
+<style lang="scss" scoped>
+.toolbar-gradient {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+</style>

@@ -1,11 +1,29 @@
 <template>
-  <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="~assets/quasar-logo-full.svg">
-  </q-page>
+  <div>
+    <home-carousel />
+    <home-info />
+    <page-footer />
+  </div>
 </template>
 
+<style>
+</style>
+
 <script>
+import HomeCarousel from "components/HomeCarousel.vue";
+import HomeInfo from "components/HomeInfo.vue";
+import PageFooter from "components/PageFooter.vue";
 export default {
-  name: 'PageIndex'
-}
+  components: {
+    HomeCarousel,
+    HomeInfo,
+    PageFooter
+  },
+  name: "PageIndex",
+  methods: {
+    getStyle() {
+      return { color: "white" };
+    }
+  }
+};
 </script>
