@@ -22,7 +22,7 @@ export default {
   name: "PageIndex",
   methods: {
     getStyle() {
-      return { color: "white" };
+      return { color: "black" };
     }
   }
 };
