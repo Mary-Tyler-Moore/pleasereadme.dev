@@ -1,11 +1,11 @@
 {
-  "name": "quasarmarkdown",
+  "name": "readmeplease",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasarmarkdown",
+  "description": "A collection of project docs.",
+  "productName": "READMEplease",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
-  "author": "Ejez <ejez@protonmail.ch>",
+  "author": "Mary-Tyler-Mooore",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
