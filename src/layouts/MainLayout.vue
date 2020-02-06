@@ -19,7 +19,7 @@
           aria-label="Menu"
         />
 
-        <q-toolbar-title class="absolute-center text-h4">READMEplease.dev</q-toolbar-title>
+        <q-toolbar-title class="absolute-center text-h4">📓 README | please</q-toolbar-title>
         <!-- Dark Mode Toggle -->
         <q-btn
           :icon="$q.dark.isActive ? 'wb_sunny' : 'brightness_3'"

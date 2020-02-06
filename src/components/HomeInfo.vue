@@ -60,7 +60,13 @@
               : 'background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%)'
           "
         >
-          <q-parallax src="statics/kitten-parallax.jpg" :width="500">
+          <q-parallax
+            :src="
+            $q.dark.isActive
+              ? 'statics/kitten-parallax-dark.jpg'
+              : 'statics/kitten-parallax.jpg'
+          "
+          >
             <!--
             // This is an optional button. Feel free to try it out.
             <q-btn

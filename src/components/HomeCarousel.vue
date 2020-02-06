@@ -43,7 +43,11 @@
       </q-carousel-slide>
       <q-carousel-slide
         name="second"
-        img-src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/header-bg.jpg?raw=true"
+        :img-src="
+        $q.dark.isActive
+        ? 'statics/header-bg-dark.jpg'
+        : 'statics/header-bg.jpg'
+        "
       >
         <div class="absolute-center custom-caption">
           <br />
@@ -68,7 +72,11 @@
       </q-carousel-slide>
       <q-carousel-slide
         name="third"
-        img-src="https://github.com/Mary-Tyler-Moore/omo-hope-cafe/blob/master/nannies.jpg?raw=true"
+        :img-src="
+        $q.dark.isActive
+        ? 'statics/nannies-dark-mode.jpg'
+        : 'statics/nannies.jpg'
+        "
       >
         <div class="absolute-center custom-caption">
           <div class="text-h3">Omo Cafe</div>
