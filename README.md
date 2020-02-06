@@ -1,27 +1,17 @@
-# Quasarmarkdown
+# How to Land a Job:
 
-## Introduction
+## Work on job applications:
 
-This project shows how to add markdown support to your quasar projects.
+<img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/random/busy.gif?raw=true" />
 
-To learn how this is achieved, please compare the repository `master` with the initial tag `v0.1.0`:
+<br/>
 
-[github.com/ejez/quasarmarkdown/compare/v0.1.0..master](https://github.com/ejez/quasarmarkdown/compare/v0.1.0..master)
+## Relentlessly submit one application after another:
 
-The added code is full of comments and explanations.
+<img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/random/fml.gif?raw=true" />
 
-This project is based on the quasar extension [QMarkdown](https://quasarframework.github.io/quasar-ui-qmarkdown)
+<br/>
 
-## Demo
+## Dress nice for the interview:
 
-[https://quasarmarkdown.netlify.com](https://quasarmarkdown.netlify.com)
-
-## Features
-
-- Use of vmd files with frontMatter and table of contents.
-
-- Use of frontMatter data (title, desc...) to set page meta tags using quasar meta plugin.
-
-- `Table of contents` component
-
-- `scroll.js` module that handles scrolling when clicking items in the TOC.
+<img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/random/dog.gif?raw=true" />
