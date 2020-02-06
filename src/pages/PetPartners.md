@@ -18,10 +18,6 @@ A student :mortar_board: of mine asked for help :pray: creating a [Quasar](https
 
 :heart_eyes_cat: ***Pet Partners*** :smile_cat: is a fictional ***Pet Rental Service*** created by my daughter. She is my #1 UX/UI tester and has extensive experience catching bugs :space_invader: in my cross-platform :floppy_disk: :dash: applications. She is the :star: of my life!
 
-<br />
-<img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/43F53DF6-1F8A-452A-8B8D-19089CB2911A.jpeg?raw=true" width="80%" />
-<br />
-
 ## What to Expect:
 
 ***Lots*** of cute pictures of pets. We are starting off by offering cats :cat2: dogs :dog2: and rabbits :rabbit2: on short-term lease, but we are also open to exotic :dragon: varieties of pets as well. :heart_eyes_cat: ***Pet Partners*** :smile_cat: will house and nurture any type of pet as long as that pet brings their owner joy. ***Our mission*** is to bring joy to everyone through the power of pets. If your pet brings you joy there is an high probability :chart_with_upwards_trend: that your pet will bring someone else joy as well.
@@ -44,10 +40,12 @@ Please :pray: make a Pull Request if you would like to add your favorite pet to 
 The mission of :heart_eyes_cat: ***Pet Partners*** :smile_cat: is to brighten :rainbow: people's day with our loving, and well trained pets. We at **Pet Partners*** are committed to offering pet accessibility to those who are sick, depressed or stressed out!
 
 <br />
+<img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/43F53DF6-1F8A-452A-8B8D-19089CB2911A.jpeg?raw=true" width="80%" />
+<br />
 
-## :construction: Step 1 :construction: - Clone :dancers: this Repository
+# Step 1
 
-> Clone this Repository
+> :construction: Clone :dancers: this Repository
 
 ```sh
 git clone https://github.com/Mary-Tyler-Moore/pet-partners.git
@@ -59,9 +57,8 @@ cd pet-partners
 
 <br />
 
-## :construction: Step 2 :construction: - Install :cd: and Build :hammer:
-
-> Install project dependencies and build for production.
+# Step 2 
+> :construction: - Install :cd: project dependencies and Build :hammer: for production.
 
 ```sh
 npm install
@@ -75,7 +72,8 @@ quasar build -m spa
 
 <br />
 
-## :construction: Step 3 :construction: - Push :raised_hands: Build Folder :open_file_folder: ***dist/spa***
+## Step 3 
+>:construction: - Push :raised_hands: Build Folder :open_file_folder: ***dist/spa***
 
 > Open VS Code. Navigate to Source Control. Give the commit a memorable message, something that will clearly communicate to your coworkers the exact purpose of this commit.
 >
@@ -91,7 +89,8 @@ quasar build -m spa
 
 <br />
 
-## :construction: Step 4 :construction: - Deploy to Netlify :sparkles:
+## Step 4 
+> :construction: - Deploy to Netlify :sparkles:
 
 <img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/netlify-new-site.gif?raw=true" width="80%" />
 
@@ -103,13 +102,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <br />
 
-## :floppy_disk: :dash: Developer Accessibility Statement:
+## Developer Accessibility Statement:
 
-#### :crystal_ball: I see great success in your future. Believe in yourself and you will achieve anything.
+> :crystal_ball: I see great success in your future. Believe in yourself and you will achieve anything.
 
-#### :broken_heart: Anyone can experience burn out when learning a new technology. If you face an error during installation or deployment, don't sweat :sweat: it!
+> :broken_heart: Anyone can experience burn out when learning a new technology. If you face an error during installation or deployment, don't sweat :sweat: it!
 
-#### :gift_heart: Always remember there are Quasarians worldwide :earth_americas: ready to help you.
+> :gift_heart: Always remember there are Quasarians worldwide :earth_americas: ready to help you.
 
 <br />
 
@@ -121,7 +120,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <br />
 
-## :moneybag: Supporting Quasar
+## Supporting Quasar
 
 Quasar Framework is an MIT-licensed open source project. Its ongoing development is made possible thanks to the support by these awesome [backers](https://github.com/rstoenescu/quasar-framework/blob/dev/backers.md).
 
@@ -129,7 +128,7 @@ Quasar Framework is an MIT-licensed open source project. Its ongoing development
 
 <br />
 
-## :mag_right: Useful Resources:
+## Useful Resources:
 
 ## Chat Support
 
@@ -167,7 +166,7 @@ Head on to the Quasar Framework official website: [https://quasar.dev](https://q
 
 <br />
 
-## Baby Yoda Power :green_heart:
+## Baby Yoda Power
 
 We have Baby Yoda working with us. In exchange for his help I will be creating a markdown Baby Yoda Emoji. Please :pray: check back for that update. Currently Baby Yoda is very busy helping me find a remote job.
 
