@@ -3,16 +3,10 @@
 #### If you like my work please star :star: this repo.
 
 <br />
-<p align="center">
-  <h1 align="center">:heart_eyes_cat: Pet Partners :smile_cat:  </h1>
 
-  <p align="center">
-   A Quasar SPA deployed to Netlify :sparkles:
-    <br />
-    <br />
-    <br />
-    <img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/43F53DF6-1F8A-452A-8B8D-19089CB2911A.jpeg?raw=true" width="80%" />
-<br />
+# :heart_eyes_cat: Pet Partners :smile_cat:
+
+## A Quasar SPA deployed to Netlify :sparkles:
 
 ## Motivation: :running: :dash: :exclamation: :tiger2:
 
@@ -22,17 +16,19 @@ A student :mortar_board: of mine asked for help :pray: creating a [Quasar](https
 
 ## Project Background:
 
-:heart\*eyes*cat: \*\*\_Pet Partners**\* :smile_cat: is a fictional **\_Pet Rental Service*\*\* created by my daughter. She is my #1 UX/UI tester and has extensive experience catching bugs :space_invader: in my cross-platform :floppy_disk: :dash: applications. She is the :star: of my life!
+:heart_eyes_cat: ***Pet Partners*** :smile_cat: is a fictional ***Pet Rental Service*** created by my daughter. She is my #1 UX/UI tester and has extensive experience catching bugs :space_invader: in my cross-platform :floppy_disk: :dash: applications. She is the :star: of my life!
 
+<br />
+<img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/43F53DF6-1F8A-452A-8B8D-19089CB2911A.jpeg?raw=true" width="80%" />
 <br />
 
 ## What to Expect:
 
-**_Lots_** of cute pictures of pets. We are starting off by offering cats :cat2: dogs :dog2: and rabbits :rabbit2: on short-term lease, but we are also open to exotic :dragon: varieties of pets as well. :heart\*eyes*cat: \*\*\_Pet Partners**\* :smile_cat: will house and nurture any type of pet as long as that pet brings their owner joy. **\_Our mission*\*\* is to bring joy to everyone through the power of pets. If your pet brings you joy there is an high probability :chart_with_upwards_trend: that your pet will bring someone else joy as well.
+***Lots*** of cute pictures of pets. We are starting off by offering cats :cat2: dogs :dog2: and rabbits :rabbit2: on short-term lease, but we are also open to exotic :dragon: varieties of pets as well. :heart_eyes_cat: ***Pet Partners*** :smile_cat: will house and nurture any type of pet as long as that pet brings their owner joy. ***Our mission*** is to bring joy to everyone through the power of pets. If your pet brings you joy there is an high probability :chart_with_upwards_trend: that your pet will bring someone else joy as well.
 
 Please :pray: make a Pull Request if you would like to add your favorite pet to the list below.
 
-## **_Pet Rental List:_**
+## ***Pet Rental List:***
 
 > - Dogs :dog:
 > - Cats :cat:
@@ -43,9 +39,9 @@ Please :pray: make a Pull Request if you would like to add your favorite pet to 
 
 ## Target Market:
 
-:heart*eyes_cat: \*\*\_Pet Partners*\*\* :smile_cat: will aggressively market to anyone having a bad day :sob:. In case of an emergency, our clients can contact us on the hotline :telephone_receiver: listed on our site. In the coming weeks we will be adding a Pet Booking and Reversavation system as well.
+:heart*eyes_cat: ***Pet Partners*** :smile_cat: will aggressively market to anyone having a bad day :sob:. In case of an emergency, our clients can contact us on the hotline :telephone_receiver: listed on our site. In the coming weeks we will be adding a Pet Booking and Reversavation system as well.
 
-The mission of :heart\*eyes*cat: \*\*\_Pet Partners**\* :smile_cat: is to brighten :rainbow: people's day with our loving, and well behaved pets. We at **\_Pet Partners*\*\* are committed to offering pet accessibility to those who are sick, depressed or stressed out!
+The mission of :heart_eyes_cat: ***Pet Partners*** :smile_cat: is to brighten :rainbow: people's day with our loving, and well trained pets. We at **Pet Partners*** are committed to offering pet accessibility to those who are sick, depressed or stressed out!
 
 <br />
 
@@ -79,7 +75,7 @@ quasar build -m spa
 
 <br />
 
-## :construction: Step 3 :construction: - Push :raised*hands: Build Folder :open_file_folder: \*\*\_dist/spa*\*\*
+## :construction: Step 3 :construction: - Push :raised_hands: Build Folder :open_file_folder: ***dist/spa***
 
 > Open VS Code. Navigate to Source Control. Give the commit a memorable message, something that will clearly communicate to your coworkers the exact purpose of this commit.
 >
