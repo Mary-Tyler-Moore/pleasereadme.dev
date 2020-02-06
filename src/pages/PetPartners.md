@@ -40,7 +40,9 @@ Please :pray: make a Pull Request if you would like to add your favorite pet to 
 The mission of :heart_eyes_cat: ***Pet Partners*** :smile_cat: is to brighten :rainbow: people's day with our loving, and well trained pets. We at **Pet Partners*** are committed to offering pet accessibility to those who are sick, depressed or stressed out!
 
 <br />
+
 <img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/43F53DF6-1F8A-452A-8B8D-19089CB2911A.jpeg?raw=true" width="80%" />
+
 <br />
 
 # Step 1
@@ -58,6 +60,7 @@ cd pet-partners
 <br />
 
 # Step 2 
+
 > :construction: - Install :cd: project dependencies and Build :hammer: for production.
 
 ```sh
@@ -170,7 +173,7 @@ Head on to the Quasar Framework official website: [https://quasar.dev](https://q
 
 We have Baby Yoda working with us. In exchange for his help I will be creating a markdown Baby Yoda Emoji. Please :pray: check back for that update. Currently Baby Yoda is very busy helping me find a remote job.
 
-<img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/Mary-Tyler-Moore.png?raw=true" />
+<img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/Mary-Tyler-Moore.png?raw=true" width="80%" />
 
 <br/>
 
@@ -178,7 +181,7 @@ We have Baby Yoda working with us. In exchange for his help I will be creating a
 
 Please :pray: help me find a remote :satellite: job as a JS Dev. I'm really "applying" myself.
 
-<img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/job-hunt.jpg?raw=true" />
+<img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/job-hunt.jpg?raw=true" width="80%" />
 
 <br />
 
