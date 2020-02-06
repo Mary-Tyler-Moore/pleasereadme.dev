@@ -69,12 +69,10 @@
           active-class="my-menu-link"
         >
           <q-item-section avatar>
-            <q-icon name="mdi-dog" />
+            <q-icon name="pets" />
           </q-item-section>
           <q-item-section>
-            <q-item-label
-              :style="$q.dark.isActive ? 'color: white' : 'color: black'"
-            >Quasar Accessible README</q-item-label>
+            <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">Pet Partners</q-item-label>
           </q-item-section>
         </q-item>
 
@@ -86,7 +84,7 @@
           active-class="my-menu-link"
         >
           <q-item-section avatar>
-            <q-icon name="mdi-cat" />
+            <q-icon name="movie_filter" />
           </q-item-section>
           <q-item-section>
             <q-item-label
@@ -103,7 +101,7 @@
           active-class="my-menu-link"
         >
           <q-item-section avatar>
-            <q-icon name="record_voice_over" />
+            <q-icon name="nature_people" />
           </q-item-section>
           <q-item-section>
             <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">Big Step</q-item-label>
@@ -118,7 +116,7 @@
           active-class="my-menu-link"
         >
           <q-item-section avatar>
-            <q-icon name="record_voice_over" />
+            <q-icon name="free_breakfast" />
           </q-item-section>
           <q-item-section>
             <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">Omo Cafe</q-item-label>
@@ -133,7 +131,7 @@
           active-class="my-menu-link"
         >
           <q-item-section avatar>
-            <q-icon name="mail_outline" />
+            <q-icon name="sentiment_satisfied_alt" />
           </q-item-section>
           <q-item-section>
             <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">LoveJS</q-item-label>
