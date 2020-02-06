@@ -7,12 +7,11 @@ module.exports = function (ctx) {
     // --> boot files are part of "main.js"
     // https://quasar.dev/quasar-cli/cli-documentation/boot-files
     boot: [
-      'i18n'
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
     css: [
-      'app.scss'
+      'app.sass'
     ],
 
     // https://github.com/quasarframework/quasar/tree/dev/extras
@@ -22,7 +21,6 @@ module.exports = function (ctx) {
       // 'fontawesome-v5',
       // 'eva-icons',
       // 'themify',
-      // 'line-awesome',
       // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
       'roboto-font', // optional, you are not bound to it
@@ -47,7 +45,11 @@ module.exports = function (ctx) {
       directives: [],
 
       // Quasar plugins
-      plugins: []
+      plugins: [
+        // meta plugin used to set page meta data (title, description...) from
+        // info extracted from markdown component frontMatter
+        'Meta'
+      ]
     },
 
     // https://quasar.dev/quasar-cli/cli-documentation/supporting-ie
@@ -56,7 +58,8 @@ module.exports = function (ctx) {
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
       scopeHoisting: true,
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      // history mode allows us to use markdown TOC anchor links
+      vueRouterMode: 'history', // available values: 'hash', 'history'
       showProgress: true,
       gzip: false,
       analyze: false,
@@ -66,6 +69,15 @@ module.exports = function (ctx) {
 
       // https://quasar.dev/quasar-cli/cli-documentation/handling-webpack
       extendWebpack (cfg) {
+        cfg.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /node_modules/,
+          options: {
+            formatter: require('eslint').CLIEngine.getFormatter('stylish')
+          }
+        })
       }
     },
 
@@ -90,8 +102,8 @@ module.exports = function (ctx) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'Quasar App',
-        short_name: 'Quasar App',
+        name: 'Quasarmarkdown',
+        short_name: 'Quasarmarkdown',
         description: 'A Quasar Framework app',
         display: 'standalone',
         orientation: 'portrait',
@@ -133,7 +145,6 @@ module.exports = function (ctx) {
       id: 'org.cordova.quasar.app'
     },
 
-
     // Full list of options: https://quasar.dev/quasar-cli/developing-capacitor-apps/configuring-capacitor
     capacitor: {
       hideSplashscreen: true
@@ -159,7 +170,7 @@ module.exports = function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'fresh-project'
+        appId: 'quasarmarkdown'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration
