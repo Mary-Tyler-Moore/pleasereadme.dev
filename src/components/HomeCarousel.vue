@@ -14,7 +14,7 @@
     >
       <q-carousel-slide
         name="first"
-        alt="Photo by from Pexels"
+        alt="Photo by x from Pexels"
         :img-src="
         $q.dark.isActive
         ? 'statics/kitten-parallax-dark.jpg'
@@ -22,12 +22,12 @@
         "
       >
         <div class="absolute-center custom-caption">
-          <div class="text-h3">Pet Partners</div>
+          <div class="text-h3" style="padding-bottom: 3%">Pet Partners</div>
           <q-btn
             label="README.html"
             class="button-1"
             color="green"
-            icon="meeting_room"
+            icon="pets"
             to="/pet-partners"
             dense
           />
@@ -35,7 +35,7 @@
             label="README.md"
             class="button-2"
             color="blue"
-            icon="meeting_room"
+            icon="pets"
             @click="petPartners()"
             dense
           />
@@ -51,12 +51,12 @@
       >
         <div class="absolute-center custom-caption">
           <br />
-          <div class="text-h3">Venues Production</div>
+          <div class="text-h3" style="padding-bottom: 3%">Venues Production</div>
           <q-btn
-            label="Documentation"
+            label="README.html"
             class="button-1"
             color="green"
-            icon="meeting_room"
+            icon="movie_filter"
             to="/venues-production"
             dense
           />
@@ -64,7 +64,7 @@
             label="README.md"
             class="button-2"
             color="blue"
-            icon="meeting_room"
+            icon="movie_filter"
             @click="venuesProduction()"
             dense
           />
@@ -79,12 +79,12 @@
         "
       >
         <div class="absolute-center custom-caption">
-          <div class="text-h3">Omo Cafe</div>
+          <div class="text-h3" style="padding-bottom: 3%">Omo Cafe</div>
           <q-btn
-            label="Documentation"
+            label="README.html"
             class="button-1"
             color="green"
-            icon="meeting_room"
+            icon="free_breakfast"
             to="/omo-cafe"
             dense
           />
@@ -92,7 +92,7 @@
             label="README.md"
             class="button-2"
             color="blue"
-            icon="meeting_room"
+            icon="free_breakfast"
             @click="omoCafe()"
             dense
           />
@@ -135,18 +135,16 @@ export default {
     },
     omoCafe() {
       openURL(
-        "https://github.com/Mary-Tyler-Moore/pet-partners/blob/master/README.md"
+        "https://github.com/Mary-Tyler-Moore/omo-cafe/blob/master/README.md"
       );
     },
     bigStep() {
       openURL(
-        "https://github.com/Mary-Tyler-Moore/pet-partners/blob/master/README.md"
+        "https://github.com/Mary-Tyler-Moore/big-step/blob/master/README.md"
       );
     },
     tylerJs() {
-      openURL(
-        "https://github.com/Mary-Tyler-Moore/pet-partners/blob/master/README.md"
-      );
+      openURL("https://tylerjs.dev");
     }
   }
 };

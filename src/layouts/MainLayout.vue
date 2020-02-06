@@ -65,7 +65,7 @@
           :style="$q.dark.isActive ? 'color: white' : 'color: black'"
           exact
           clickable
-          to="/"
+          to="/pet-partners"
           active-class="my-menu-link"
         >
           <q-item-section avatar>
@@ -80,7 +80,7 @@
           :style="$q.dark.isActive ? 'color: white' : 'color: black'"
           exact
           clickable
-          to="/"
+          to="/venues-production"
           active-class="my-menu-link"
         >
           <q-item-section avatar>
@@ -97,7 +97,7 @@
           :style="$q.dark.isActive ? 'color: white' : 'color: black'"
           exact
           clickable
-          to="/"
+          to="/big-step"
           active-class="my-menu-link"
         >
           <q-item-section avatar>
@@ -112,7 +112,7 @@
           :style="$q.dark.isActive ? 'color: white' : 'color: black'"
           exact
           clickable
-          to="/"
+          to="/omo-cafe"
           active-class="my-menu-link"
         >
           <q-item-section avatar>
@@ -127,7 +127,7 @@
           :style="$q.dark.isActive ? 'color: white' : 'color: black'"
           exact
           clickable
-          to="/"
+          to="/lovejs"
           active-class="my-menu-link"
         >
           <q-item-section avatar>
