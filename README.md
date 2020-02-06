@@ -1,4 +1,4 @@
-# 📓README | please
+# 📓 README | please :praying_hands:
 ## readmeplease.dev
 A place to showcase my projects and host accessible html versions of project README.md files
 
