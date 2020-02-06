@@ -18,33 +18,24 @@
         >
           <q-card-section>
             <div class="column items-center text-center">
-              <div class="text-h3" style="padding-bottom: 3%; padding-top: 2%">Pet Partners</div>
+              <div class="text-h2" style="padding-bottom: 3%; padding-top: 2%">📓 README | please</div>
 
               <div
-                class="text-h5"
+                class="text-h3"
                 style="padding-bottom: 3%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-              >
-                😻 Pet Partners 😸 is a fictional Pet Rental Service created by
-                my daughter.
-              </div>
+              >📓 README | please</div>
+              <div
+                class="text-h4"
+                style="padding-bottom: 3%; padding-top:10px; padding-right: 3%; padding-left: 3%"
+              >📓 README | please</div>
               <div
                 class="text-h5"
                 style="padding-bottom: 3%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-              >She is the ⭐️ of my life!</div>
+              >📓 README | please</div>
               <div
-                class="text-h5"
+                class="text-h6"
                 style="padding-bottom: 3%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-              >
-                😻 Pet Partners 😸 will aggressively market to anyone having a
-                bad day 😭.
-              </div>
-              <div
-                class="text-h5"
-                style="padding-bottom: 3%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-              >
-                The mission of 😻 Pet Partners 😸 is to brighten 🌈 people's day
-                with our loving pets.
-              </div>
+              >📓 README | please</div>
             </div>
           </q-card-section>
         </q-card>
@@ -84,11 +75,11 @@
             <div
               class="text-h4"
               style="padding-bottom: 1%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-            >Rent-a-Pug</div>
+            >Free Content</div>
             <div
               class="text-h5"
               style="padding-bottom: 2%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-            >Hold puppies whenever you get the chance. You will thank us later.</div>
+            >Follow me on GitHub or Twitter to stay up to date with the free content I release. I'm experienced building responsive Single Page Apps, SSR Apps, PWAs, Hybrid Mobile Apps and Electron Apps. Please contact me if you are stuck or would like a guide on something Quasar specific. I'm always happy to help!</div>
           </q-card-section>
         </q-card>
       </div>
