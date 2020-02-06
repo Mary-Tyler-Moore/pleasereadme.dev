@@ -123,6 +123,7 @@
           </q-item-section>
         </q-item>
 
+        <!--
         <q-item
           :style="$q.dark.isActive ? 'color: white' : 'color: black'"
           exact
@@ -137,6 +138,7 @@
             <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">LoveJS</q-item-label>
           </q-item-section>
         </q-item>
+        -->
       </q-list>
     </q-drawer>
 

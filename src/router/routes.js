@@ -6,23 +6,23 @@ const routes = [
       { path: "", component: () => import("pages/index.vue") },
       {
         path: "/pet-partners",
-        component: () => import("pages/PetPartners.vue")
+        component: () => import("pages/PetPartners.vmd")
       },
       {
         path: "/venues-production",
-        component: () => import("pages/VenuesProduction.vue")
+        component: () => import("pages/VenuesProduction.vmd")
       },
       {
         path: "/big-step",
-        component: () => import("pages/BigStep.vue")
+        component: () => import("pages/BigStep.vmd")
       },
       {
         path: "/omo-cafe",
-        component: () => import("pages/OmoCafe.vue")
+        component: () => import("pages/OmoCafe.vmd")
       },
       {
         path: "/lovejs",
-        component: () => import("pages/LoveJs.vue")
+        component: () => import("pages/LoveJs.vmd")
       }
     ]
   }
