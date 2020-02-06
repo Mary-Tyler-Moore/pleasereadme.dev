@@ -3,34 +3,10 @@
 #### If you like my work please star :star: the repo.
 
 <br />
-<p align="center">
-  <h1 align="center">:movie_camera: venues-production :clapper:</h1>
 
-  <p align="center">
-    Quasar SSR :zap: deployed on DigitalOcean :surfer: using NGINX and PM2.
-    <br />
-    <br />
-    <br />
-    <img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/venues-production.gif?raw=true" width="80%" />
-    <br />
-    <br />
-    <a href="https://lovejs.dev/">View Demo</a>
-    ·
-    <a href="https://thevenuesvr.netlify.com/#The_Atrium">View 360 Panoramas</a>
-    ·
-    <a href="https://github.com/Mary-Tyler-Moore/venues-production/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Mary-Tyler-Moore/venues-production/issues">Request Feature</a>
-  </p>
-</p>
+# :movie_camera: venues-production :clapper:
 
-<br />
-
-## Tech Stack
-
-> Check out the other tech stacks I use at [Stack Share](https://stackshare.io/Mary-Tyler-Moore)
-
-<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/venues-production-stack.png?raw=true" width="80%" />
+> A Quasar Framework SSR :zap: app deployed to DigitalOcean :surfer: using NGINX and PM2.
 
 <br />
 
@@ -42,11 +18,11 @@
 
 ## :floppy_disk: :dash: Developer Accessibility Statement:
 
-#### :crystal_ball: I see great success in your future. Believe in yourself and you will achieve anything.
+> :crystal_ball: I see great success in your future. Believe in yourself and you will achieve anything.
 
-#### :broken_heart: Anyone can experience burn out when learning a new technology. If you face an error during installation or deployment, don't sweat :sweat: it!
+> :broken_heart: Anyone can experience burn out when learning a new technology. If you face an error during installation or deployment, don't sweat :sweat: it!
 
-#### :gift_heart: Always remember there are Quasarians worldwide :earth_americas: ready to help you.
+> :gift_heart: Always remember there are Quasarians worldwide :earth_americas: ready to help you.
 
 <br />
 
@@ -58,7 +34,7 @@
 
 <br />
 
-## :moneybag: Supporting Quasar
+## Supporting Quasar
 
 Quasar Framework is an MIT-licensed open source project. Its ongoing development is made possible thanks to the support by these awesome [backers](https://github.com/rstoenescu/quasar-framework/blob/dev/backers.md).
 
@@ -118,6 +94,18 @@ Head on to the Quasar Framework official website: [https://quasar.dev](https://q
 <br />
 
 ---
+
+<br />
+
+<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/venues-production.gif?raw=true" width="80%" />
+
+<br />
+
+## Tech Stack
+
+> Check out the other tech stacks I use at [Stack Share](https://stackshare.io/Mary-Tyler-Moore)
+
+<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/venues-production-stack.png?raw=true" width="80%" />
 
 <br />
 
