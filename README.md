@@ -1,3 +1,10 @@
+This is a WIP. I'm currently writing media queries and could use help editing the mardown following files:
+>VenuesProduction.md
+>BigStep.md
+>OmoCafe.md
+
+
+
 # How to Land a Job:
 
 ## Work on job applications:
