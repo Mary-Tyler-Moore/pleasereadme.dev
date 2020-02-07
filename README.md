@@ -1,10 +1,10 @@
-## This is a WIP. I'm currently writing media queries and could use help editing the mardown following files:
+## This is a WIP. I'm currently writing media queries. I could use help editing the following MarkDown files:
 
-## VenuesProduction.md
+### VenuesProduction.md
 
-## BigStep.md
+### BigStep.md
 
-## OmoCafe.md
+### OmoCafe.md
 
 
 
