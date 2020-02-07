@@ -1,6 +1,9 @@
 This is a WIP. I'm currently writing media queries and could use help editing the mardown following files:
+<br/>
 >VenuesProduction.md
+<br/>
 >BigStep.md
+<br/>
 >OmoCafe.md
 
 
