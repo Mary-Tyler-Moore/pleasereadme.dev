@@ -19,6 +19,12 @@
           <q-card-section>
             <div class="column items-center text-center">
               <div
+                class="text-h1 line-h1"
+                style="padding-bottom: 3%; padding-top: 2%"
+              >
+                📓 README | please 🙏
+              </div>
+              <div
                 class="text-h2 line-h2"
                 style="padding-bottom: 3%; padding-top: 2%"
               >
@@ -117,6 +123,12 @@
   width: 80%;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 1212px) {
+  .line-h1 {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 788px) {
