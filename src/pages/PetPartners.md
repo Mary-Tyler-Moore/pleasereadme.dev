@@ -13,6 +13,7 @@
 A student :mortar_board: of mine asked for help :pray: creating a [Quasar](https://quasar.dev/) project. This student uses Windows 10 :computer: so the screen recordings :movie_camera: will reflect this fact. My preference is to develop on Mac :apple: but I am doing this is as a personal favor for my student. If you would like to see a guide for installing [Quasar CLI](https://quasar.dev/start/quasar-cli) on Mac :apple: please check [here](https://github.com/Mary-Tyler-Moore/venues-production).
 
 <br />
+<br />
 
 ## Project Background:
 
@@ -44,8 +45,9 @@ The mission of :heart_eyes_cat: ***Pet Partners*** :smile_cat: is to brighten :r
 <img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/43F53DF6-1F8A-452A-8B8D-19089CB2911A.jpeg?raw=true" width="80%" />
 
 <br />
+<br />
 
-# Step 1
+# Step 1 - Clone this Repository:
 
 > :construction: Clone :dancers: this Repository
 
@@ -58,8 +60,9 @@ cd pet-partners
 <img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/git-clone-2.gif?raw=true" width="80%" />
 
 <br />
+<br />
 
-# Step 2 
+# Step 2 - Install and Build for Production
 
 > :construction: - Install :cd: project dependencies and Build :hammer: for production.
 
@@ -74,8 +77,9 @@ quasar build -m spa
 <img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/npm-install-3.gif?raw=true" width="80%" />
 
 <br />
+<br />
 
-## Step 3 
+## Step 3 - Push Project Build Files
 >:construction: - Push :raised_hands: Build Folder :open_file_folder: ***dist/spa***
 
 > Open VS Code. Navigate to Source Control. Give the commit a memorable message, something that will clearly communicate to your coworkers the exact purpose of this commit.
@@ -91,6 +95,7 @@ quasar build -m spa
 > A warning message pops up. You will often see this warning message when working on a project with multiple people making commits to the same branch. Notice how we are not able to push our code until we first pull the updated code from GitHub.
 
 <br />
+<br />
 
 ## Step 4 
 > :construction: - Deploy to Netlify :sparkles:
@@ -98,11 +103,13 @@ quasar build -m spa
 <img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/netlify-new-site.gif?raw=true" width="80%" />
 
 <br />
+<br/>
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+<br />
 <br />
 
 ## Developer Accessibility Statement:
@@ -113,6 +120,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 > :gift_heart: Always remember there are Quasarians worldwide :earth_americas: ready to help you.
 
+<br />
 <br />
 
 # Quasar Framework
