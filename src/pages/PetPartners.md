@@ -47,7 +47,7 @@ The mission of :heart_eyes_cat: ***Pet Partners*** :smile_cat: is to brighten :r
 <br />
 <br />
 
-# Step 1 - Clone this Repository:
+# Step 1 - Clone this Repository
 
 > :construction: Clone :dancers: this Repository
 
@@ -79,7 +79,7 @@ quasar build -m spa
 <br />
 <br />
 
-## Step 3 - Push Project Build Files
+# Step 3 - Push Project Build Files
 >:construction: - Push :raised_hands: Build Folder :open_file_folder: ***dist/spa***
 
 > Open VS Code. Navigate to Source Control. Give the commit a memorable message, something that will clearly communicate to your coworkers the exact purpose of this commit.
@@ -97,7 +97,7 @@ quasar build -m spa
 <br />
 <br />
 
-## Step 4 
+# Step 4 - Deploy to Netlify
 > :construction: - Deploy to Netlify :sparkles:
 
 <img src="https://github.com/Mary-Tyler-Moore/readme-gifs/blob/master/pet-partners/netlify-new-site.gif?raw=true" width="80%" />
