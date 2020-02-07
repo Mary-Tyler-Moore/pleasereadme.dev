@@ -16,13 +16,13 @@
         name="first"
         alt="Photo by x from Pexels"
         :img-src="
-        $q.dark.isActive
-        ? 'statics/kitten-parallax-dark.jpg'
-        : 'statics/kitten-parallax.jpg'
+          $q.dark.isActive
+            ? 'statics/kitten-parallax-dark.jpg'
+            : 'statics/kitten-parallax.jpg'
         "
       >
         <div class="absolute-center custom-caption">
-          <div class="text-h3" style="padding-bottom: 3%">Pet Partners</div>
+          <div class="text-h3" style="padding-bottom: 5%">Pet Partners</div>
           <q-btn
             label="README"
             class="button-1"
@@ -44,14 +44,16 @@
       <q-carousel-slide
         name="second"
         :img-src="
-        $q.dark.isActive
-        ? 'statics/header-bg-dark.jpg'
-        : 'statics/header-bg.jpg'
+          $q.dark.isActive
+            ? 'statics/header-bg-dark.jpg'
+            : 'statics/header-bg.jpg'
         "
       >
         <div class="absolute-center custom-caption">
           <br />
-          <div class="text-h3" style="padding-bottom: 3%">Venues Production</div>
+          <div class="text-h3" style="padding-bottom: 5%">
+            Venues Production
+          </div>
           <q-btn
             label="README"
             class="button-1"
@@ -73,13 +75,13 @@
       <q-carousel-slide
         name="third"
         :img-src="
-        $q.dark.isActive
-        ? 'statics/nannies-dark-mode.jpg'
-        : 'statics/nannies.jpg'
+          $q.dark.isActive
+            ? 'statics/nannies-dark-mode.jpg'
+            : 'statics/nannies.jpg'
         "
       >
         <div class="absolute-center custom-caption">
-          <div class="text-h3" style="padding-bottom: 3%">Omo Cafe</div>
+          <div class="text-h3" style="padding-bottom: 5%">Omo Cafe</div>
           <q-btn
             label="README"
             class="button-1"
@@ -88,7 +90,14 @@
             to="/omo-cafe"
             dense
           />
-          <q-btn label="GitHub" class="button-2" color="blue" icon="star" @click="omoCafe()" dense />
+          <q-btn
+            label="GitHub"
+            class="button-2"
+            color="blue"
+            icon="star"
+            @click="omoCafe()"
+            dense
+          />
         </div>
       </q-carousel-slide>
       <template v-slot:control>
@@ -98,7 +107,13 @@
           class="text-white"
           style="background: rgba(0, 0, 0, .3); padding: 4px 8px 4px 0; border-radius: 4px"
         >
-          <q-toggle dense dark color="yellow" v-model="autoplay" label="Auto Play" />
+          <q-toggle
+            dense
+            dark
+            color="yellow"
+            v-model="autoplay"
+            label="Auto Play"
+          />
         </q-carousel-control>
       </template>
     </q-carousel>
@@ -152,7 +167,7 @@ export default {
 }
 .custom-caption {
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
 }

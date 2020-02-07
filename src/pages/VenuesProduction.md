@@ -12,7 +12,7 @@
 
 ## Motivation: :running: :dash: :exclamation: :tiger2:
 
-#### Working with Quasar CLI has been a game changer for my development and deployment work flow. This README documents the deployment of a Quasar SSR build on DigitalOcean using PM2 and NGINX.
+> Working with Quasar CLI has been a game changer for my development and deployment work flow. This README documents the deployment of a Quasar SSR build on DigitalOcean using PM2 and NGINX.
 
 <br />
 
@@ -140,7 +140,7 @@ SSR Build deployed on DigitalOcean using PM2 and NGINX as server proxy
 
 <br />
 
-### :chart_with_upwards_trend: Server Performance
+### Server Performance
 
 #### httperf
 
@@ -156,15 +156,15 @@ SSR Build deployed on DigitalOcean using PM2 and NGINX as server proxy
 
 ### Mobile UI:
 
-<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/compare-mobile-arrow.png?raw=true" height="500" />
+<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/compare-mobile-arrow.png?raw=true width="80%" height="500" />
 
 ### Mobile Menu:
 
-<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/mobile-compare-2.png?raw=true" height="500" />
+<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/mobile-compare-2.png?raw=true" width="80%" height="500" />
 
 ### Mobile Room Details:
 
-<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/mobile-room-info.png?raw=true" height="500" />
+<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/mobile-room-info.png?raw=true" width="80%" height="500" />
 
 <br />
 
@@ -190,11 +190,11 @@ SSR Build deployed on DigitalOcean using PM2 and NGINX as server proxy
 
 ### src/i18n/en-us/index.js
 
-<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/i18n-en-us.png?raw=true" />
+<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/i18n-en-us.png?raw=true" width="80%" />
 
 ### src/i18n/es/index.js
 
-<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/i18n-es.png?raw=true" />
+<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/i18n-es.png?raw=true" width="80" />
 
 ### Built With
 
@@ -376,8 +376,7 @@ Add an A record for @ and for www to your droplet
 
 ## Register and/or setup domain from registrar
 
-I prefer Namecheap for domains. Please use this affiliate link if you are going to use them
-https://namecheap.pxf.io/c/1299552/386170/5618
+I prefer Google Domains for domains.
 
 Choose "Custom nameservers" and add these 3
 

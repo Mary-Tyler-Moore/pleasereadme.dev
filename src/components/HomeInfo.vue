@@ -9,7 +9,7 @@
     >
       <div class="column items-center">
         <q-card
-          class="my-card"
+          class="title-card"
           :style="
             $q.dark.isActive
               ? 'background-image: linear-gradient(-220deg, #FF057C 0%, #8D0B93 50%, #321575 100%);'
@@ -18,24 +18,36 @@
         >
           <q-card-section>
             <div class="column items-center text-center">
-              <div class="text-h2" style="padding-bottom: 3%; padding-top: 2%">📓 README | please</div>
-
               <div
-                class="text-h3"
-                style="padding-bottom: 3%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-              >📓 README | please</div>
+                class="text-h2 line-h2"
+                style="padding-bottom: 3%; padding-top: 2%"
+              >
+                📓 README | please 🙏
+              </div>
               <div
-                class="text-h4"
+                class="text-h3 line-h3"
                 style="padding-bottom: 3%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-              >📓 README | please</div>
+              >
+                📓 README | please 🙏
+              </div>
               <div
-                class="text-h5"
+                class="text-h4 line-h4"
                 style="padding-bottom: 3%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-              >📓 README | please</div>
+              >
+                📓 README | please 🙏
+              </div>
+              <div
+                class="text-h5 line-h5"
+                style="padding-bottom: 3%; padding-top:10px; padding-right: 3%; padding-left: 3%"
+              >
+                📓 README | please 🙏
+              </div>
               <div
                 class="text-h6"
                 style="padding-bottom: 3%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-              >📓 README | please</div>
+              >
+                📓 README | please 🙏
+              </div>
             </div>
           </q-card-section>
         </q-card>
@@ -53,10 +65,10 @@
         >
           <q-parallax
             :src="
-            $q.dark.isActive
-              ? 'statics/kitten-parallax-dark.jpg'
-              : 'statics/kitten-parallax.jpg'
-          "
+              $q.dark.isActive
+                ? 'statics/kitten-parallax-dark.jpg'
+                : 'statics/kitten-parallax.jpg'
+            "
           >
             <!--
             // This is an optional button. Feel free to try it out.
@@ -75,11 +87,19 @@
             <div
               class="text-h4"
               style="padding-bottom: 1%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-            >Free Content</div>
+            >
+              Free Content
+            </div>
             <div
               class="text-h5"
               style="padding-bottom: 2%; padding-top:10px; padding-right: 3%; padding-left: 3%"
-            >Follow me on GitHub or Twitter to stay up to date with the free content I release. I'm experienced building responsive Single Page Apps, SSR Apps, PWAs, Hybrid Mobile Apps and Electron Apps. Please contact me if you are stuck or would like a guide on something Quasar specific. I'm always happy to help!</div>
+            >
+              Follow me on GitHub or Twitter to stay up to date with the free
+              content I release. I'm experienced building responsive Single Page
+              Apps, SSR Apps, PWAs, Hybrid Mobile Apps and Electron Apps. Please
+              contact me if you are stuck or would like a guide on something
+              Quasar specific. I'm always happy to help!
+            </div>
           </q-card-section>
         </q-card>
       </div>
@@ -92,5 +112,34 @@
   width: 80%;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+.title-card {
+  width: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 788px) {
+  .line-h2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+  .line-h3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  .line-h4 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 368px) {
+  .line-h5 {
+    display: none;
+  }
 }
 </style>

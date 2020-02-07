@@ -19,7 +19,9 @@
           aria-label="Menu"
         />
 
-        <q-toolbar-title class="absolute-center text-h4">📓 README | please</q-toolbar-title>
+        <q-toolbar-title class="absolute-center text-h4"
+          >📓 README | please 🙏</q-toolbar-title
+        >
         <!-- Dark Mode Toggle -->
         <q-btn
           :icon="$q.dark.isActive ? 'wb_sunny' : 'brightness_3'"
@@ -41,7 +43,11 @@
       :content-class="$q.dark.isActive ? 'bg-grey-10' : 'bg-grey-2'"
     >
       <q-list>
-        <q-item-label header :style="$q.dark.isActive ? 'color: white' : 'color: black'">Navigation</q-item-label>
+        <q-item-label
+          header
+          :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+          >Navigation</q-item-label
+        >
 
         <q-item
           :style="$q.dark.isActive ? 'color: white' : 'color: black'"
@@ -54,7 +60,10 @@
             <q-icon name="home" />
           </q-item-section>
           <q-item-section>
-            <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">Home</q-item-label>
+            <q-item-label
+              :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+              >Home</q-item-label
+            >
             <!--
             <q-item-label>{{ nav.label }}</q-item-label>
             -->
@@ -72,7 +81,10 @@
             <q-icon name="pets" />
           </q-item-section>
           <q-item-section>
-            <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">Pet Partners</q-item-label>
+            <q-item-label
+              :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+              >Pet Partners</q-item-label
+            >
           </q-item-section>
         </q-item>
 
@@ -89,7 +101,8 @@
           <q-item-section>
             <q-item-label
               :style="$q.dark.isActive ? 'color: white' : 'color: black'"
-            >Venues Production</q-item-label>
+              >Venues Production</q-item-label
+            >
           </q-item-section>
         </q-item>
 
@@ -104,7 +117,10 @@
             <q-icon name="nature_people" />
           </q-item-section>
           <q-item-section>
-            <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">Big Step</q-item-label>
+            <q-item-label
+              :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+              >Big Step</q-item-label
+            >
           </q-item-section>
         </q-item>
 
@@ -119,7 +135,10 @@
             <q-icon name="free_breakfast" />
           </q-item-section>
           <q-item-section>
-            <q-item-label :style="$q.dark.isActive ? 'color: white' : 'color: black'">Omo Cafe</q-item-label>
+            <q-item-label
+              :style="$q.dark.isActive ? 'color: white' : 'color: black'"
+              >Omo Cafe</q-item-label
+            >
           </q-item-section>
         </q-item>
 
