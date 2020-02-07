@@ -129,7 +129,7 @@ SPA Build deployed on LAMP stack
 
 SSR Build deployed on DigitalOcean using PM2 and NGINX as server proxy
 
-<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/lovejs-lighthouse.png?raw=true" height="500" />
+<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/lovejs-lighthouse.png?raw=true" width="80%" />
 
 <br />
 
@@ -156,15 +156,15 @@ SSR Build deployed on DigitalOcean using PM2 and NGINX as server proxy
 
 ### Mobile UI:
 
-<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/compare-mobile-arrow.png?raw=true width="80%" height="500" />
+<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/compare-mobile-arrow.png?raw=true width="80%" />
 
 ### Mobile Menu:
 
-<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/mobile-compare-2.png?raw=true" width="80%" height="500" />
+<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/mobile-compare-2.png?raw=true" width="80%" />
 
 ### Mobile Room Details:
 
-<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/mobile-room-info.png?raw=true" width="80%" height="500" />
+<img src="https://github.com/Mary-Tyler-Moore/venues-production/blob/master/src/statics/mobile-room-info.png?raw=true" width="80%" />
 
 <br />
 
