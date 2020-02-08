@@ -3,20 +3,18 @@
 #### If you like my work please star :star: this repo.
 
 <br />
-<p align="center">
-  <h1 align="center"> :earth_africa: Omo Hope Cafe :coffee:  </h1>
+:earth_africa: Omo Hope Cafe :coffee:
 
-  <p align="center">
-   Amharic / English Quasar Project I'm building for a NGO in Southern Ethiopia :earth_africa:
-    <br />
-    <br />
-    <br />
-    <img src="https://github.com/Mary-Tyler-Moore/omo-hope-cafe/blob/master/omo-hope.jpg?raw=true" width="80%" />
+Amharic / English Quasar Project I'm building for a NGO in Southern Ethiopia :earth_africa:
+ <br />
+ <br />
+ <br />
+<img src="https://github.com/Mary-Tyler-Moore/omo-hope-cafe/blob/master/omo-hope.jpg?raw=true" width="80%" />
 <br />
 
 ## Motivation: :running: :dash:
 
-:earth_africa: **_Omo Hope Cafe_** :coffee: aims to financially support Omo Hope, and raise awareness of the awesome work Omo Hope is doing in Southern Ethiopia. For the last decade, Omo Hope has worked unremittingly to provide a safe, nurturing home and quality education for rescued Mingi children living in the remote Omo Valley region of Southwest Ethiopia. Mingi is the ritualistic killing of infants and children believed to be cursed.
+:earth_africa: ***Omo Hope Cafe*** :coffee: aims to financially support Omo Hope, and raise awareness of the awesome work Omo Hope is doing in Southern Ethiopia. For the last decade, Omo Hope has worked unremittingly to provide a safe, nurturing home and quality education for rescued Mingi children living in the remote Omo Valley region of Southwest Ethiopia. Mingi is the ritualistic killing of infants and children believed to be cursed.
 
 <br />
 
