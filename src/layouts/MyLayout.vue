@@ -19,7 +19,7 @@
           aria-label="Menu"
         />
 
-        <q-toolbar-title class="absolute-center text-h4"
+        <q-toolbar-title class="absolute-center text-h4 brand"
           >📓 README | please 🙏</q-toolbar-title
         >
         <!-- Dark Mode Toggle -->
@@ -196,4 +196,16 @@ export default {
 //  in all anchor elements inside our page (elements with the 'id' attribute).
 .q-page-container [id]
   scroll-margin-top: var(--header-height)
+
+@media only screen and (max-width: 500px)
+  .brand
+    transform: scale(.75) translateY(-70%) translateX(-70%)
+
+@media only screen and (max-width: 400px)
+  .brand
+    transform: scale(.50) translateY(-90%) translateX(-130%)
+
+@media only screen and (max-width: 320px)
+  .brand
+    display: none
 </style>
