@@ -1,12 +1,3 @@
-## This is a WIP. I'm currently writing media queries. I could use help editing the following MarkDown files:
-
-### VenuesProduction.md
-
-### BigStep.md
-
-### OmoCafe.md
-
-<br/>
 
 # How to Land a Job:
 
